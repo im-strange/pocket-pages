@@ -36,7 +36,7 @@ python main.py
 ```
 6. Open the link in your browser as followed by the information given in `data.json`.
 Or, after running `main.py` you will see something in terminal:
-```shell
+```py
 * Serving Flask app 'main'
 * Debug mode: off
 WARNING: This is a development server.
