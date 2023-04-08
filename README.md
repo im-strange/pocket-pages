@@ -5,7 +5,7 @@ Create your own mini tweets and journals, and host it in your own browser! Power
 ![](assets/Screenshot_2023_0408_162539.png)
 &nbsp; 
 
-## Add blog page
+## Add page
 ![](assets/Screenshot_2023_0408_163138.png)
 &nbsp;
 
