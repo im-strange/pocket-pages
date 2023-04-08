@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alumni Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  
+				<title>Pocket Pages - CodeDotPy</title>
+
+<!-- main stylesheet -->
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">	
+</head>
+
+<!-- body -->
+<body>	
+	<div>
+					
+  <div class="top"><h1>Pocket Pages</h1>
+  <a class="tweetbtn" href="{{url_for('create_blog')}}">Add new</a></div>
+  
+  <!-- {% for blog in blog_info %} -->
+  <div class="box">
+    <div class="title"><h2>{{blog[0]}}&nbsp;&bull;&nbsp; </h2></div>
+    <div class="date">{{blog[1]}}</div>
+    <div class="body">&nbsp; &nbsp;{{blog[2] | safe}}</div>
+  </div>
+  <!-- {% endfor %} -->
+  
+    <div class="foot">Template by CodeDotPy - <a class="bottom_link" href="https://github.com/im-strange">@im-strange</a></div>
+  
+  </div>			
+</body>
+
+<!-- js -->
+<script>				
+</script>
+</html>

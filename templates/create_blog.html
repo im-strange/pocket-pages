@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Pocket Pages - Add new</title>
+</head>
+
+<!-- prerequisites -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alumni Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<!-- style -->
+<style>
+				* {
+								padding: 0px;
+								margin: 0px;
+				}		
+				h1 {
+								font-family: "Alumni Sans";
+								margin: 90px 0px 0px 0px;
+								font-size: 40px;
+				}
+				#input_usr, #input_pass {
+								outline: none;
+								height: 40px;
+								width: 85%;
+								margin: 5px;
+								border: 3px solid #ccc;
+								transition: 0.5s ease;
+								font-family: "Raleway";
+								font-size: 15px;
+								padding: 5px;
+				}
+				#input_usr:focus, #input_pass:focus {
+				      border: 2px solid black;				
+				}
+				#input_pass{
+								height: 120px;
+				}
+				.submit {
+								background-color: black;
+								color: white;
+								width: 75%;
+								border: none;
+								margin: 5px;
+								padding: 20px;
+								border-radius: 2px;
+				}
+				.error{
+								padding: 5px;
+								margin: 10px;
+								font-family: "Raleway";
+						   font-size: 12px;
+						   color: red;
+				}
+</style>
+
+<!-- body -->
+<body>
+  <center>	  
+	  <h1>Add page</h1>
+	  <!-- {% if error %} -->
+		  <p class="error"><strong>{{error}}</strong></p>
+		<!-- {% endif %}  -->
+		
+		<div>
+   <form method="post">
+		  <!-- <input type="text" placeholder="Title here" name="title" id="input_usr" value="{{request.form.title}}"> -->
+		<br>
+		  <textarea name="content" id="input_pass" placeholder="Type something" required>{{request.form.content}}</textarea>
+		<br>
+		  <input type="submit" value="Post" class="submit">			
+</form>
+</center>
+</div>		
+</body>
+
+</html>
