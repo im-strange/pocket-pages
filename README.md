@@ -51,9 +51,9 @@ Press CTRL+C to quit
 &nbsp;
 
 ## More info
-The tweeets(pages) will be saved in the `pocket_pages` folder.
-&nbsp; 
-Inside the `pocketpage.txt`:
+The tweeets(pages) will be
+saved in the `pocket_pages` folder.
+Inside the `pocketpage.txt`, you will see something like:
 
 ```
 @STRANGER
