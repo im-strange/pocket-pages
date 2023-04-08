@@ -22,7 +22,7 @@ git clone https://github.com/im-strange/pocket-pages
 ```
 cd pocket-pages
 ```
-4. Set up your information in `data.json` file. Default details:
+4. Update`data.json` file. Default details:
 ```json
 {
   "name": "STRANGER",
