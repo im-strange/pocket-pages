@@ -35,7 +35,7 @@ python main.py
 &nbsp;
 
 ## More
-The tweeets(pages) will be saved in the `pocket_pages`.
+The tweeets(pages) will be saved in the `pocket_pages` folder.
 Inside the `pocketpage.txt`:
 
 ```
@@ -52,7 +52,7 @@ You may edit the contents in the `.txt` files.
 You can delete tweets in the terminal with `rm` command.
 &nbsp; 
 
-Tree directory:
+Folder tree:
 ```
 ├── data.json
 ├── main.py
@@ -73,4 +73,5 @@ Tree directory:
 ```
 &nbsp; 
 
-
+Note:
+> *Use the repository's content only for legal and ethical purposes. Enjoy!*
