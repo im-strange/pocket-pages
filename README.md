@@ -49,7 +49,7 @@ You may edit the contents in the `.txt` files.
 - the rest is for body (content)
 &nbsp; 
 
-You can delete the sample tweets in the terminal with `rm` command.
+You can delete tweets in the terminal with `rm` command.
 &nbsp; 
 
 Tree directory:
