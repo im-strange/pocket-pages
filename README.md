@@ -3,11 +3,11 @@ Create your own mini tweets and journals, and host it in your own browser! Power
 
 ## On mobile
 ![](assets/Screenshot_2023_0408_162539.png)
-&nbsp; 
+&nbsp;  
 
 ## Add page
 ![](assets/Screenshot_2023_0408_163138.png)
-&nbsp;
+&nbsp;  
 
 ## Installation
 1. Clone the repo
@@ -48,7 +48,7 @@ WARNING: This is a development server.
 Press CTRL+C to quit
 ```
 - copy the link like `http://127.0.0.1:5000`
-&nbsp;
+&nbsp;  
 
 ## More info
 The tweeets(pages) will be
@@ -64,10 +64,10 @@ You may edit the contents in the `.txt` files.
 - first line must be the name
 - second line is for date and time
 - the rest is for body (content)
-&nbsp; 
+&nbsp;  
 
 You can delete tweets in the terminal with `rm` command.
-&nbsp; 
+&nbsp;  
 
 Folder tree:
 ```
@@ -88,7 +88,7 @@ Folder tree:
     ├── blog.html
     └── create_blog.html
 ```
-&nbsp; 
+&nbsp;  
 
 Note:
 > *Use the repository's content only for legal and ethical purposes. Enjoy!*
