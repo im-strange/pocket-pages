@@ -40,7 +40,7 @@ python main.py
 ```
 http://host_ip:port/
 ```
-- example: `http://127.0.0.1`
+- example: `http://127.0.0.1:5000`
 &nbsp;
 
 ## More
