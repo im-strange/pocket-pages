@@ -47,7 +47,7 @@ WARNING: This is a development server.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
-- example: `http://127.0.0.1:5000`
+- copy the link like `http://127.0.0.1:5000`
 &nbsp;
 
 ## More info
