@@ -12,13 +12,13 @@ Create your own mini tweets and journals, and host it in your own browser! Power
 ```
 git clone https://github.com/im-strange/pocket-pages
 ```
-2. Make sure the following module are installed.
+2. Make sure the following python module are installed.
  - `flask`
  - `json`
  - `datetime`
  - `os`
  - `re`
-3. Navigate to the folder
+3. Navigate to the folder.
 ```
 cd pocket-pages
 ```
