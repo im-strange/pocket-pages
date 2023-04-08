@@ -20,7 +20,11 @@ git clone https://github.com/im-strange/pocket-pages
  - `datetime`
  - `os`
  - `re`
-3. Set up your information in `data.json` file. Default details:
+3. Navigate to the folder
+```
+cd pocket-pages
+```
+4. Set up your information in `data.json` file. Default details:
 ```json
 {
   "name": "STRANGER",
@@ -28,10 +32,15 @@ git clone https://github.com/im-strange/pocket-pages
   "port": 5000
 }
 ```
-4. Run the script
+5. Run the script
 ```
 python main.py
 ```
+6. Open the link in your browser as followed in the `data.json`:
+```
+http://host_ip:port/
+```
+- example: `http://127.0.0.1`
 &nbsp;
 
 ## More
