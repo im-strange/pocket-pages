@@ -38,10 +38,12 @@ python main.py
 ```
 6. Open the link in your browser as followed by the information given in `data.json`.
 Or, after running `main.py` you will see something in terminal:
-```
+```shell
 * Serving Flask app 'main'
 * Debug mode: off
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+WARNING: This is a development server.
+  Do not use it in a production deployment.
+  Use a production WSGI server instead.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
