@@ -1,0 +1,95 @@
+*{
+  				margin: 0px;
+  				padding: 0px;
+  }	
+  body {
+  				background-color: #f1f1f1;
+  }
+  .top {
+  				padding: 3vh;
+  				background-color: black;
+  				color: white;
+  				font-family: "Alumni Sans";
+  				margin: ;
+				position: sticky;
+				top: 0;
+  }
+  .box {
+  				margin: 10px 10px 10px 10px;
+  				padding: 10px;
+  				background: white;
+				display: ;
+				flex-wrap: ;
+  }
+  .title {
+  				background-color: ;
+  				margin: 0px 0px 3px 0px;
+  				font-family: "Alumni Sans";
+				padding: 0px 0px 0px 0px;
+				width: ;
+				float: left;
+  }
+  .date {
+  				padding: 2px;
+  				margin: 5px 0px 0px 0px;
+  				position: relative;
+  				font-size: 10px;
+				font-family: "Raleway";
+				display: block;
+				width: ;
+				background: ;
+				float:left;
+  }
+  .body {
+  				background-color: ;
+  				padding: 5px;
+  				font-family: "Raleway";
+				font-size: 14px;
+				white-space: pre-line;
+				display: block;
+				position:;
+				width: 100%;
+				clear: both;
+  }
+  .foot {
+  				margin: 10px 0px 0px 0px;
+  				padding: 20px;
+  				position: relative;
+  				bottom: 0px;
+  				width: ;
+  				background: black;
+  				color: white;
+  				font-size: 2vh;
+				font-family: "Raleway";
+  }
+  .tweetbtn {
+				position: absolute;
+				right: 20px;
+				top: 20px;
+				
+  }
+  a {
+				text-decoration: none;
+				padding: 10px;
+				background: white;
+				color: black;
+}
+  code {
+  				background: #ccc;
+  				font-family: "Monospace";
+  				font-weight: bold;
+  				padding: 5px;
+  				font-size: 12px;
+  				white-space: pre-line;
+  				display: block;
+  				width: auto;
+  				margin: 5px 0px 5px 0px;
+  }
+  
+  .bottom_link {
+				background: black;
+				color: white;
+				font-family: "Monospace";
+				font-size: 10px;
+				font-weight: bold;
+}
