@@ -48,16 +48,15 @@ Press CTRL+C to quit
 - copy the link like `http://127.0.0.1:5000`  
 
 ## More info
-The tweeets(pages) will be
-saved in the `pocket_pages` folder.
-Inside the `pocketpage.txt`, you will see something like:
+The tweeets(pages) are saved as `.txt` file in the `pocket_pages` folder.
+Inside the `pocketpage.txt`, you will see something like this:
 
 ```
 @STRANGER
 April 8, 2023 04:20pm
 First example
 ```
-You may edit the contents in the `.txt` files.
+You may edit the contents of the saved files.
 - first line must be the name
 - second line is for date and time
 - the rest is for body (content)  
