@@ -35,6 +35,7 @@ def fetch_blog():
   files = os.listdir("pocket_pages")
   blog = []
   files.sort()
+  files.reverse()
   for file in files:
     blog.append(fetch_each_blog("pocket_pages/"+file))
   return blog
