@@ -17,13 +17,13 @@ Create your own mini tweets and journals, and host it in your own browser! Power
 3. Navigate to the folder.
    - `cd pocket-pages`
 4. Update`data.json` file. Default details:
-  ```json
-  {
-    "name": "STRANGER",
-    "host_ip": "127.0.0.1",
-    "port": 5000
-  }
-  ```
+   ```json
+    {
+      "name": "STRANGER",
+      "host_ip": "127.0.0.1",
+      "port": 5000
+    }
+   ```
 5. Run the script
    - `python main.py`
 6. Open the link in your browser as followed by the information given in `data.json`.
