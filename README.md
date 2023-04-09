@@ -3,7 +3,7 @@ Create your own mini tweets and journals, and host it in your own browser! Power
 
 ## Screenshots
 <img src="assets/Screenshot_2023_0408_162539.png" style="height:150px;">&nbsp;<img src="assets/Screenshot_2023_0408_163138.png" style="height: 150px;">   
-<br><br> 
+<br> 
 
 ## Installation
 1. Clone the repo
@@ -38,7 +38,7 @@ WARNING: This is a development server.
 Press CTRL+C to quit
 ```
  - copy the link like `http://127.0.0.1:5000`
-<br><br> 
+<br>
 
 ## More info
 The tweets (pages) are saved as `.txt` file in the `pocket_pages` folder.
