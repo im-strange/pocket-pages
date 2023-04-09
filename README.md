@@ -46,27 +46,28 @@ WARNING: This is a development server.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
-- copy the link like `http://127.0.0.1:5000`  
+- copy the link like `http://127.0.0.1:5000`
+<br><br> 
 
-#
-#
 ## More info
-The tweeets(pages) are saved as `.txt` file in the `pocket_pages` folder.
-Inside the `pocketpage.txt`, you will see something like this:
+The tweets (pages) are saved as `.txt` file in the `pocket_pages` folder.
+Inside the text files, you will see something like this:
 
 ```
 @STRANGER
 April 8, 2023 04:20pm
 First example
 ```
+
 You may edit the contents of the saved files.
 - first line must be the name
 - second line is for date and time
 - the rest is for body (content)  
 
-You can delete tweets in the terminal with `rm` command   
+You can delete tweets in the terminal with `rm` command  
+<br> 
 
-Folder tree:
+###Folder tree
 ```
 ├── data.json
 ├── main.py
