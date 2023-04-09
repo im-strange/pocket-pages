@@ -7,7 +7,9 @@ Create your own mini tweets and journals, and host it in your own browser! Power
 
 ## Installation
 1. Clone the repo
-   - `git clone https://github.com/im-strange/pocket-pages`
+   ```
+   git clone https://github.com/im-strange/pocket-pages
+   ```
 2. Make sure the following python module are installed.
    - `flask`
    - `json`
@@ -15,7 +17,9 @@ Create your own mini tweets and journals, and host it in your own browser! Power
    - `os`
    - `re`
 3. Navigate to the folder.
-   - `cd pocket-pages`
+   ```
+   cd pocket-pages
+   ```
 4. Update`data.json` file. Default details:
    ```json
     {
@@ -25,18 +29,20 @@ Create your own mini tweets and journals, and host it in your own browser! Power
     }
    ```
 5. Run the script
-   - `python main.py`
+   ```
+   python main.py
+   ```
 6. Open the link in your browser as followed by the information given in `data.json`.
 Or, after running `main.py` you will see something in terminal:
-```py
-* Serving Flask app 'main'
-* Debug mode: off
-WARNING: This is a development server.
-  Do not use it in a production deployment.
-  Use a production WSGI server instead.
- * Running on http://127.0.0.1:5000
-Press CTRL+C to quit
-```
+   ```py
+   * Serving Flask app 'main'
+   * Debug mode: off
+     WARNING: This is a development server.
+     Do not use it in a production deployment.
+     Use a production WSGI server instead.
+   * Running on http://127.0.0.1:5000
+   Press CTRL+C to quit
+   ```
    - copy the link like `http://127.0.0.1:5000`
 <br>
 
@@ -44,11 +50,11 @@ Press CTRL+C to quit
 The tweets (pages) are saved as `.txt` file in the `pocket_pages` folder.
 Inside the text files, you will see something like this:
 
-```
-@STRANGER
-April 8, 2023 04:20pm
-First example
-```
+   ```
+   @STRANGER
+   April 8, 2023 04:20pm
+   First example
+  ```
 
 You may edit the contents of the saved files.
   - first line must be the name
