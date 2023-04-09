@@ -1,18 +1,15 @@
 # pocket-pages
 ![](https://badgen.net/badge/license/MIT/blue)
+<br>
 Create your own mini tweets and journals, and host it in your own browser! Powered by Python and Flask
 
 ## Screenshots
-![](assets/Screenshot_2023_0408_162539.png)  
-
-
-![](assets/Screenshot_2023_0408_163138.png)  
+<img src="assets/Screenshot_2023_0408_162539.png" style="height:150px;">&nbsp;<img src="assets/Screenshot_2023_0408_163138.png" style="height: 150px;">   
+<br><br> 
 
 ## Installation
 1. Clone the repo
-```
-git clone https://github.com/im-strange/pocket-pages
-```
+ - `git clone https://github.com/im-strange/pocket-pages`
 2. Make sure the following python module are installed.
  - `flask`
  - `json`
@@ -20,21 +17,17 @@ git clone https://github.com/im-strange/pocket-pages
  - `os`
  - `re`
 3. Navigate to the folder.
-```
-cd pocket-pages
-```
+ - `cd pocket-pages`
 4. Update`data.json` file. Default details:
-```json
-{
-  "name": "STRANGER",
-  "host_ip": "127.0.0.1",
-  "port": 5000
-}
-```
+  ```json
+  {
+    "name": "STRANGER",
+    "host_ip": "127.0.0.1",
+    "port": 5000
+  }
+  ```
 5. Run the script
-```
-python main.py
-```
+ - `python main.py`
 6. Open the link in your browser as followed by the information given in `data.json`.
 Or, after running `main.py` you will see something in terminal:
 ```py
@@ -46,7 +39,7 @@ WARNING: This is a development server.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
-- copy the link like `http://127.0.0.1:5000`
+ - copy the link like `http://127.0.0.1:5000`
 <br><br> 
 
 ## More info
@@ -67,7 +60,7 @@ You may edit the contents of the saved files.
 You can delete tweets in the terminal with `rm` command  
 <br> 
 
-###Folder tree
+### **Folder tree**
 ```
 ├── data.json
 ├── main.py
