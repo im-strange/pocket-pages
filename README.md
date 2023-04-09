@@ -1,5 +1,5 @@
 # pocket-pages
-![](https://badgen.net/badge/MIT/License/blue)
+![](https://badgen.net/badge/license/MIT/blue)
 Create your own mini tweets and journals, and host it in your own browser! Powered by Python and Flask
 
 ## On mobile
