@@ -54,7 +54,7 @@ Inside the text files, you will see something like this:
    @STRANGER
    April 8, 2023 04:20pm
    First example
-  ```
+   ```
 
 You may edit the contents of the saved files.
   - first line must be the name
